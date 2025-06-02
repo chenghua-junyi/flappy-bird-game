@@ -1,1 +1,390 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c1{background-color:#f0f4f9;padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10.5pt;font-family:"Courier New";font-style:normal}.c8{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c18{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c2{font-size:10.5pt;font-family:"Courier New";color:#098658;font-weight:400}.c3{font-size:10.5pt;font-family:"Courier New";color:#ff0000;font-weight:400}.c13{color:#5f6368;text-decoration:none;vertical-align:baseline;font-style:normal}.c15{text-decoration:none;vertical-align:baseline;font-style:normal}.c19{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c4{font-size:10.5pt;font-weight:400;font-family:"Courier New"}.c14{color:#188038}.c16{color:#0000ff}.c12{color:#800000}.c5{color:#8430ce}.c6{color:#008080}.c7{color:#b55908}.c10{color:#383838}.c17{color:#808080}.c11{color:#0451a5}.c9{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c19 doc-content"><p class="c1"><span class="c4 c17">&lt;!DOCTYPE</span><span class="c3">&nbsp;html</span><span class="c15 c4 c17">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;</span><span class="c4 c12">html</span><span class="c4">&nbsp;</span><span class="c3">lang</span><span class="c4 c10">=</span><span class="c4 c16">&quot;zh-TW&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;</span><span class="c4 c12">head</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">meta</span><span class="c4">&nbsp;</span><span class="c3">charset</span><span class="c4 c10">=</span><span class="c4 c16">&quot;UTF-8&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">meta</span><span class="c4">&nbsp;</span><span class="c3">name</span><span class="c4 c10">=</span><span class="c4 c16">&quot;viewport&quot;</span><span class="c4">&nbsp;</span><span class="c3">content</span><span class="c4 c10">=</span><span class="c4 c16">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">title</span><span class="c4 c10">&gt;</span><span class="c4">Flappy Bird &#36938;&#25138;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">title</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">link</span><span class="c4">&nbsp;</span><span class="c3">href</span><span class="c4 c10">=</span><span class="c4 c16">&quot;https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap&quot;</span><span class="c4">&nbsp;</span><span class="c3">rel</span><span class="c4 c10">=</span><span class="c4 c16">&quot;stylesheet&quot;</span><span class="c4 c10 c15">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">style</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">body</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">display:</span><span class="c4">&nbsp;</span><span class="c4 c11">flex</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">justify-content:</span><span class="c4">&nbsp;</span><span class="c4 c11">center</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">align-items:</span><span class="c4">&nbsp;</span><span class="c4 c11">center</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">min-height:</span><span class="c4">&nbsp;</span><span class="c2">100vh</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">margin:</span><span class="c4">&nbsp;</span><span class="c2">0</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">background-color:</span><span class="c4">&nbsp;</span><span class="c4 c11">#87CEEB</span><span class="c4">; </span><span class="c13 c4">/* &#22825;&#31354;&#34253;&#32972;&#26223; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-family:</span><span class="c4">&nbsp;</span><span class="c4 c14">&#39;Press Start 2P&#39;</span><span class="c4">, </span><span class="c4 c11">cursive</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">overflow:</span><span class="c4">&nbsp;</span><span class="c4 c11">hidden</span><span class="c4">; </span><span class="c13 c4">/* &#38450;&#27490;&#28414;&#21205;&#26781; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">flex-direction:</span><span class="c4">&nbsp;</span><span class="c4 c11">column</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#gameContainer</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">position:</span><span class="c4">&nbsp;</span><span class="c4 c11">relative</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">background-color:</span><span class="c4">&nbsp;</span><span class="c4 c11">#70C5CE</span><span class="c4">; </span><span class="c13 c4">/* &#36938;&#25138;&#32972;&#26223; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">border:</span><span class="c4">&nbsp;</span><span class="c2">5px</span><span class="c4">&nbsp;</span><span class="c4 c11">solid</span><span class="c4">&nbsp;</span><span class="c4 c11">#555</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">border-radius:</span><span class="c4">&nbsp;</span><span class="c2">15px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">box-shadow:</span><span class="c4">&nbsp;</span><span class="c2">0</span><span class="c4">&nbsp;</span><span class="c2">10px</span><span class="c4">&nbsp;</span><span class="c2">20px</span><span class="c4">&nbsp;</span><span class="c4 c11">rgba(</span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0.3</span><span class="c4 c11">)</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">overflow:</span><span class="c4">&nbsp;</span><span class="c4 c11">hidden</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">width:</span><span class="c4">&nbsp;</span><span class="c4 c11">clamp(</span><span class="c2">300px</span><span class="c4">, </span><span class="c2">90vw</span><span class="c4">, </span><span class="c2">400px</span><span class="c4 c11">)</span><span class="c4">; </span><span class="c13 c4">/* &#38911;&#25033;&#24335;&#23532;&#24230; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">height:</span><span class="c4">&nbsp;</span><span class="c4 c11">clamp(</span><span class="c2">400px</span><span class="c4">, </span><span class="c2">80vh</span><span class="c4">, </span><span class="c2">600px</span><span class="c4 c11">)</span><span class="c4">; </span><span class="c13 c4">/* &#38911;&#25033;&#24335;&#39640;&#24230; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">display:</span><span class="c4">&nbsp;</span><span class="c4 c11">flex</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">justify-content:</span><span class="c4">&nbsp;</span><span class="c4 c11">center</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">align-items:</span><span class="c4">&nbsp;</span><span class="c4 c11">center</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">flex-direction:</span><span class="c4">&nbsp;</span><span class="c4 c11">column</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">canvas</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">background-color:</span><span class="c4">&nbsp;</span><span class="c4 c11">transparent</span><span class="c4">; </span><span class="c13 c4">/* &#35731;&#32972;&#26223;&#36879;&#36942; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">display:</span><span class="c4">&nbsp;</span><span class="c4 c11">block</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">width:</span><span class="c4">&nbsp;</span><span class="c2">100%</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">height:</span><span class="c4">&nbsp;</span><span class="c2">100%</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#scoreDisplay</span><span class="c4">, </span><span class="c4 c12">#gameOver</span><span class="c4">, </span><span class="c4 c12">#startMessage</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">position:</span><span class="c4">&nbsp;</span><span class="c4 c11">absolute</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">color:</span><span class="c4">&nbsp;</span><span class="c4 c11">white</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">text-shadow:</span><span class="c4">&nbsp;</span><span class="c2">2px</span><span class="c4">&nbsp;</span><span class="c2">2px</span><span class="c4">&nbsp;</span><span class="c2">4px</span><span class="c4">&nbsp;</span><span class="c4 c11">rgba(</span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0.7</span><span class="c4 c11">)</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-size:</span><span class="c4">&nbsp;</span><span class="c2">2em</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">text-align:</span><span class="c4">&nbsp;</span><span class="c4 c11">center</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">z-index:</span><span class="c4">&nbsp;</span><span class="c2">10</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#scoreDisplay</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">top:</span><span class="c4">&nbsp;</span><span class="c2">20px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">left:</span><span class="c4">&nbsp;</span><span class="c2">50%</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">transform:</span><span class="c4">&nbsp;</span><span class="c4 c11">translateX(</span><span class="c2">-50%</span><span class="c4 c11">)</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-size:</span><span class="c4">&nbsp;</span><span class="c2">2.5em</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#gameOver</span><span class="c4">, </span><span class="c4 c12">#startMessage</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-size:</span><span class="c4">&nbsp;</span><span class="c2">1.5em</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">padding:</span><span class="c4">&nbsp;</span><span class="c2">20px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">background-color:</span><span class="c4">&nbsp;</span><span class="c4 c11">rgba(</span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0</span><span class="c4">, </span><span class="c2">0.6</span><span class="c4 c11">)</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">border-radius:</span><span class="c4">&nbsp;</span><span class="c2">10px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">display:</span><span class="c4">&nbsp;</span><span class="c4 c11">none</span><span class="c4">; </span><span class="c13 c4">/* &#38928;&#35373;&#38577;&#34255; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">flex-direction:</span><span class="c4">&nbsp;</span><span class="c4 c11">column</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">gap:</span><span class="c4">&nbsp;</span><span class="c2">15px</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#gameOver</span><span class="c4">&nbsp;</span><span class="c4 c12">button</span><span class="c4">, </span><span class="c4 c12">#startMessage</span><span class="c4">&nbsp;</span><span class="c4 c12">button</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">background-color:</span><span class="c4">&nbsp;</span><span class="c4 c11">#4CAF50</span><span class="c4">; </span><span class="c13 c4">/* &#32160;&#33394;&#25353;&#37397; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">color:</span><span class="c4">&nbsp;</span><span class="c4 c11">white</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">padding:</span><span class="c4">&nbsp;</span><span class="c2">10px</span><span class="c4">&nbsp;</span><span class="c2">20px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">border:</span><span class="c4">&nbsp;</span><span class="c4 c11">none</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">border-radius:</span><span class="c4">&nbsp;</span><span class="c2">8px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">cursor:</span><span class="c4">&nbsp;</span><span class="c4 c11">pointer</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-family:</span><span class="c4">&nbsp;</span><span class="c4 c14">&#39;Press Start 2P&#39;</span><span class="c4">, </span><span class="c4 c11">cursive</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-size:</span><span class="c4">&nbsp;</span><span class="c2">0.8em</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">box-shadow:</span><span class="c4">&nbsp;</span><span class="c2">0</span><span class="c4">&nbsp;</span><span class="c2">5px</span><span class="c4">&nbsp;</span><span class="c4 c11">#367C39</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">transition:</span><span class="c4">&nbsp;</span><span class="c4 c11">all</span><span class="c4">&nbsp;</span><span class="c2">0.1s</span><span class="c4">&nbsp;</span><span class="c4 c11">ease</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#gameOver</span><span class="c4">&nbsp;</span><span class="c4 c12">button:active</span><span class="c4">, </span><span class="c4 c12">#startMessage</span><span class="c4">&nbsp;</span><span class="c4 c12">button:active</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">box-shadow:</span><span class="c4">&nbsp;</span><span class="c2">0</span><span class="c4">&nbsp;</span><span class="c2">2px</span><span class="c4">&nbsp;</span><span class="c4 c11">#367C39</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">transform:</span><span class="c4">&nbsp;</span><span class="c4 c11">translateY(</span><span class="c2">3px</span><span class="c4 c11">)</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">#startMessage</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">display:</span><span class="c4">&nbsp;</span><span class="c4 c11">flex</span><span class="c4">; </span><span class="c13 c4">/* &#38928;&#35373;&#39023;&#31034;&#38283;&#22987;&#35338;&#24687; */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c12">.instructions</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">font-size:</span><span class="c4">&nbsp;</span><span class="c2">0.7em</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">margin-top:</span><span class="c4">&nbsp;</span><span class="c2">10px</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c3">color:</span><span class="c4">&nbsp;</span><span class="c4 c11">#DDD</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">style</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;/</span><span class="c4 c12">head</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;</span><span class="c4 c12">body</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;gameContainer&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">canvas</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;gameCanvas&quot;</span><span class="c4 c10">&gt;&lt;/</span><span class="c4 c12">canvas</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;scoreDisplay&quot;</span><span class="c4 c10">&gt;</span><span class="c4">&#20998;&#25976;: 0</span><span class="c4 c10">&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;startMessage&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#40670;&#25802;&#25110;&#25353;&#31354;&#30333;&#37749;&#38283;&#22987;&#65281;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">button</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;startButton&quot;</span><span class="c4 c10">&gt;</span><span class="c4">&#38283;&#22987;&#36938;&#25138;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">button</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">class</span><span class="c4 c10">=</span><span class="c4 c16">&quot;instructions&quot;</span><span class="c4 c10">&gt;</span><span class="c4">&#40670;&#25802;&#25110;&#25353;&#31354;&#30333;&#37749;&#20358;&#25293;&#21205;&#32709;&#33152;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;gameOver&quot;</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#36938;&#25138;&#32080;&#26463;&#65281;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">div</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;finalScore&quot;</span><span class="c4 c10">&gt;&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">button</span><span class="c4">&nbsp;</span><span class="c3">id</span><span class="c4 c10">=</span><span class="c4 c16">&quot;restartButton&quot;</span><span class="c4 c10">&gt;</span><span class="c4">&#37325;&#26032;&#38283;&#22987;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">button</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">div</span><span class="c15 c4 c10">&gt;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;</span><span class="c4 c12">script</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;canvas = document.getElementById(</span><span class="c4 c14">&#39;gameCanvas&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;ctx = canvas.getContext(</span><span class="c4 c14">&#39;2d&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;scoreDisplay = document.getElementById(</span><span class="c4 c14">&#39;scoreDisplay&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;startMessage = document.getElementById(</span><span class="c4 c14">&#39;startMessage&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;startButton = document.getElementById(</span><span class="c4 c14">&#39;startButton&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;gameOverMessage = document.getElementById(</span><span class="c4 c14">&#39;gameOver&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;finalScoreDisplay = document.getElementById(</span><span class="c4 c14">&#39;finalScore&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;restartButton = document.getElementById(</span><span class="c4 c14">&#39;restartButton&#39;</span><span class="c0">);</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#36938;&#25138;&#35373;&#23450;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">GAME_WIDTH</span><span class="c4">&nbsp;= </span><span class="c4 c7">400</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">GAME_HEIGHT</span><span class="c4">&nbsp;= </span><span class="c4 c7">600</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;= </span><span class="c4 c7">30</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">GRAVITY</span><span class="c4">&nbsp;= </span><span class="c4 c7">0.5</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">JUMP_STRENGTH</span><span class="c4">&nbsp;= -</span><span class="c4 c7">8</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">PIPE_WIDTH</span><span class="c4">&nbsp;= </span><span class="c4 c7">60</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">PIPE_GAP</span><span class="c4">&nbsp;= </span><span class="c4 c7">150</span><span class="c4">; </span><span class="c13 c4">// &#31649;&#36947;&#20043;&#38291;&#30340;&#22402;&#30452;&#38291;&#38553;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">PIPE_SPEED</span><span class="c4">&nbsp;= </span><span class="c4 c7">3</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;</span><span class="c4 c6">GROUND_HEIGHT</span><span class="c4">&nbsp;= </span><span class="c4 c7">50</span><span class="c0">;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c0">&nbsp;bird = {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x: </span><span class="c4 c7">50</span><span class="c0">,</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;y: </span><span class="c4 c6">GAME_HEIGHT</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">&nbsp;- </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c0">,</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;velocity: </span><span class="c15 c4 c7">0</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;};</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c0">&nbsp;pipes = [];</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c4">&nbsp;score = </span><span class="c4 c7">0</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c4">&nbsp;gameStarted = </span><span class="c4 c5">false</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c4">&nbsp;gameOver = </span><span class="c4 c5">false</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">let</span><span class="c0">&nbsp;animationFrameId;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#35519;&#25972;&#30059;&#24067;&#22823;&#23567;&#20197;&#36969;&#25033;&#23481;&#22120;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;resizeCanvas() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;container = document.getElementById(</span><span class="c4 c14">&#39;gameContainer&#39;</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;canvas.width = container.clientWidth;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;canvas.height = container.clientHeight;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#37325;&#26032;&#35336;&#31639;&#40165;&#30340;&#20301;&#32622;&#65292;&#20197;&#38450;&#33836;&#19968;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(!gameStarted) {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.y = canvas.height / </span><span class="c4 c7">2</span><span class="c4">&nbsp;- </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;window.addEventListener(</span><span class="c4 c14">&#39;resize&#39;</span><span class="c0">, resizeCanvas);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;resizeCanvas(); </span><span class="c13 c4">// &#21021;&#22987;&#35519;&#25972;&#22823;&#23567;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#32362;&#35069;&#40165;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;drawBird() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillStyle = </span><span class="c4 c14">&#39;yellow&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.beginPath();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.arc(bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">, bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">, </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">, </span><span class="c4 c7">0</span><span class="c4">, </span><span class="c4 c6">Math</span><span class="c4">.</span><span class="c4 c6">PI</span><span class="c4">&nbsp;* </span><span class="c4 c7">2</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fill();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeStyle = </span><span class="c4 c14">&#39;orange&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.lineWidth = </span><span class="c4 c7">2</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.stroke();</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#31777;&#21934;&#30340;&#30524;&#30555;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillStyle = </span><span class="c4 c14">&#39;black&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.beginPath();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.arc(bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;* </span><span class="c4 c7">0.7</span><span class="c4">, bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;* </span><span class="c4 c7">0.3</span><span class="c4">, </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;* </span><span class="c4 c7">0.1</span><span class="c4">, </span><span class="c4 c7">0</span><span class="c4">, </span><span class="c4 c6">Math</span><span class="c4">.</span><span class="c4 c6">PI</span><span class="c4">&nbsp;* </span><span class="c4 c7">2</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fill();</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#31777;&#21934;&#30340;&#22068;&#24052;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillStyle = </span><span class="c4 c14">&#39;orange&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.beginPath();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.moveTo(bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">, bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.lineTo(bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;+ </span><span class="c4 c7">10</span><span class="c4">, bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">&nbsp;- </span><span class="c4 c7">5</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.lineTo(bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;+ </span><span class="c4 c7">10</span><span class="c4">, bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c4">&nbsp;+ </span><span class="c4 c7">5</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.closePath();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fill();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#32362;&#35069;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;drawPipes() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillStyle = </span><span class="c4 c14">&#39;green&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeStyle = </span><span class="c4 c14">&#39;darkgreen&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.lineWidth = </span><span class="c4 c7">3</span><span class="c0">;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipes.forEach(pipe =&gt; {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#38914;&#37096;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillRect(pipe.x, </span><span class="c4 c7">0</span><span class="c4">, </span><span class="c4 c6">PIPE_WIDTH</span><span class="c0">, pipe.topHeight);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeRect(pipe.x, </span><span class="c4 c7">0</span><span class="c4">, </span><span class="c4 c6">PIPE_WIDTH</span><span class="c0">, pipe.topHeight);</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#24213;&#37096;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillRect(pipe.x, pipe.bottomY, </span><span class="c4 c6">PIPE_WIDTH</span><span class="c4">, canvas.height - pipe.bottomY - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeRect(pipe.x, pipe.bottomY, </span><span class="c4 c6">PIPE_WIDTH</span><span class="c4">, canvas.height - pipe.bottomY - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;});</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#32362;&#35069;&#22320;&#38754;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;drawGround() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillStyle = </span><span class="c4 c14">&#39;#D2B48C&#39;</span><span class="c4">; </span><span class="c13 c4">/* &#26837;&#33394; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.fillRect(</span><span class="c4 c7">0</span><span class="c4">, canvas.height - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c4">, canvas.width, </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c0">);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeStyle = </span><span class="c4 c14">&#39;#8B4513&#39;</span><span class="c4">; </span><span class="c13 c4">/* &#28145;&#26837;&#33394; */</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.lineWidth = </span><span class="c4 c7">3</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.strokeRect(</span><span class="c4 c7">0</span><span class="c4">, canvas.height - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c4">, canvas.width, </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#26356;&#26032;&#36938;&#25138;&#29376;&#24907;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;update() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c4">&nbsp;(gameOver || !gameStarted) </span><span class="c4 c5">return</span><span class="c0">;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#26356;&#26032;&#40165;&#30340;&#20301;&#32622;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.velocity += </span><span class="c4 c6">GRAVITY</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.y += bird.velocity;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#27298;&#26597;&#40165;&#26159;&#21542;&#36229;&#20986;&#37002;&#30028;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c4">&nbsp;(bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;&gt; canvas.height - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c4">&nbsp;|| bird.y &lt; </span><span class="c4 c7">0</span><span class="c0">) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;endGame();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">return</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#31227;&#21205;&#31649;&#36947;&#20006;&#29983;&#25104;&#26032;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c4">&nbsp;(pipes.length === </span><span class="c4 c7">0</span><span class="c4">&nbsp;|| pipes[pipes.length - </span><span class="c4 c7">1</span><span class="c4">].x &lt; canvas.width - </span><span class="c4 c7">200</span><span class="c0">) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;generatePipe();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipes.forEach(pipe =&gt; {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipe.x -= </span><span class="c4 c6">PIPE_SPEED</span><span class="c0">;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#27298;&#26597;&#30896;&#25758;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.x &lt; pipe.x + </span><span class="c4 c6">PIPE_WIDTH</span><span class="c0">&nbsp;&amp;&amp;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.x + </span><span class="c4 c6">BIRD_SIZE</span><span class="c0">&nbsp;&gt; pipe.x &amp;&amp;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(bird.y &lt; pipe.topHeight || bird.y + </span><span class="c4 c6">BIRD_SIZE</span><span class="c0">&nbsp;&gt; pipe.bottomY)</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;endGame();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">return</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#22686;&#21152;&#20998;&#25976;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c4">&nbsp;(!pipe.passed &amp;&amp; bird.x &gt; pipe.x + </span><span class="c4 c6">PIPE_WIDTH</span><span class="c0">) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;score++;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;scoreDisplay.textContent = </span><span class="c4 c14">`&#20998;&#25976;: </span><span class="c4">${score}</span><span class="c4 c14">`</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipe.passed = </span><span class="c4 c5">true</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;});</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#31227;&#38500;&#36229;&#20986;&#34722;&#24149;&#30340;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipes = pipes.filter(pipe =&gt; pipe.x + </span><span class="c4 c6">PIPE_WIDTH</span><span class="c4">&nbsp;&gt; </span><span class="c4 c7">0</span><span class="c0">);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#29983;&#25104;&#26032;&#31649;&#36947;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;generatePipe() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;minHeight = </span><span class="c4 c7">50</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;maxHeight = canvas.height - </span><span class="c4 c6">GROUND_HEIGHT</span><span class="c4">&nbsp;- </span><span class="c4 c6">PIPE_GAP</span><span class="c0">&nbsp;- minHeight;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;topHeight = </span><span class="c4 c6">Math</span><span class="c4">.floor(</span><span class="c4 c6">Math</span><span class="c4">.random() * (maxHeight - minHeight + </span><span class="c4 c7">1</span><span class="c0">)) + minHeight;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">const</span><span class="c4">&nbsp;bottomY = topHeight + </span><span class="c4 c6">PIPE_GAP</span><span class="c0">;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipes.push({</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x: canvas.width,</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;topHeight: topHeight,</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bottomY: bottomY,</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;passed: </span><span class="c15 c4 c5">false</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;});</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#36938;&#25138;&#24490;&#29872;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;gameLoop() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ctx.clearRect(</span><span class="c4 c7">0</span><span class="c4">, </span><span class="c4 c7">0</span><span class="c4">, canvas.width, canvas.height); </span><span class="c13 c4">// &#28165;&#38500;&#30059;&#24067;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;update();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;drawPipes();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;drawGround();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;drawBird();</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(!gameOver) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;animationFrameId = requestAnimationFrame(gameLoop);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#25293;&#21205;&#32709;&#33152;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;flap() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(!gameOver) {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird.velocity = </span><span class="c4 c6">JUMP_STRENGTH</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c13">// &#38283;&#22987;&#36938;&#25138;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;startGame() {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bird = {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x: </span><span class="c4 c7">50</span><span class="c0">,</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;y: canvas.height / </span><span class="c4 c7">2</span><span class="c4">&nbsp;- </span><span class="c4 c6">BIRD_SIZE</span><span class="c4">&nbsp;/ </span><span class="c4 c7">2</span><span class="c0">,</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;velocity: </span><span class="c15 c4 c7">0</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;};</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pipes = [];</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;score = </span><span class="c4 c7">0</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;scoreDisplay.textContent = </span><span class="c4 c14">`&#20998;&#25976;: </span><span class="c4">${score}</span><span class="c4 c14">`</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameOver = </span><span class="c4 c5">false</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameStarted = </span><span class="c4 c5">true</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;startMessage.style.display = </span><span class="c4 c14">&#39;none&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameOverMessage.style.display = </span><span class="c4 c14">&#39;none&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(animationFrameId) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;cancelAnimationFrame(animationFrameId);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameLoop();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#32080;&#26463;&#36938;&#25138;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">function</span><span class="c0">&nbsp;endGame() {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameOver = </span><span class="c4 c5">true</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameStarted = </span><span class="c4 c5">false</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;cancelAnimationFrame(animationFrameId);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;finalScoreDisplay.textContent = </span><span class="c4 c14">`&#20320;&#30340;&#20998;&#25976;&#26159;: </span><span class="c4">${score}</span><span class="c4 c14">`</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gameOverMessage.style.display = </span><span class="c4 c14">&#39;flex&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#20107;&#20214;&#30435;&#32893;&#22120;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;document.addEventListener(</span><span class="c4 c14">&#39;keydown&#39;</span><span class="c0">, (e) =&gt; {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c4">&nbsp;(e.code === </span><span class="c4 c14">&#39;Space&#39;</span><span class="c0">) {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(!gameStarted &amp;&amp; !gameOver) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;startGame();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} </span><span class="c4 c5">else</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;flap();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;});</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;canvas.addEventListener(</span><span class="c4 c14">&#39;click&#39;</span><span class="c0">, () =&gt; {</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c4 c5">if</span><span class="c0">&nbsp;(!gameStarted &amp;&amp; !gameOver) {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;startGame();</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} </span><span class="c4 c5">else</span><span class="c0">&nbsp;{</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;flap();</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp;});</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;startButton.addEventListener(</span><span class="c4 c14">&#39;click&#39;</span><span class="c0">, startGame);</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;restartButton.addEventListener(</span><span class="c4 c14">&#39;click&#39;</span><span class="c0">, startGame);</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c13 c4">// &#21021;&#22987;&#39023;&#31034;&#38283;&#22987;&#35338;&#24687;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;startMessage.style.display = </span><span class="c4 c14">&#39;flex&#39;</span><span class="c0">;</span></p><p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c4 c10">&lt;/</span><span class="c4 c12">script</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;/</span><span class="c4 c12">body</span><span class="c15 c4 c10">&gt;</span></p><p class="c1"><span class="c4 c10">&lt;/</span><span class="c4 c12">html</span><span class="c15 c4 c10">&gt;</span></p><p class="c1 c9"><span class="c0"></span></p><p class="c9 c18"><span class="c8"></span></p></body></html>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Flappy Bird 遊戲</title>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   <style>
+       body {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           min-height: 100vh;
+           margin: 0;
+           background-color: #87CEEB; /* 天空藍背景 */
+           font-family: 'Press Start 2P', cursive;
+           overflow: hidden; /* 防止滾動條 */
+           flex-direction: column;
+       }
+
+
+       #gameContainer {
+           position: relative;
+           background-color: #70C5CE; /* 遊戲背景 */
+           border: 5px solid #555;
+           border-radius: 15px;
+           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+           overflow: hidden;
+           width: clamp(300px, 90vw, 400px); /* 響應式寬度 */
+           height: clamp(400px, 80vh, 600px); /* 響應式高度 */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+       }
+
+
+       canvas {
+           background-color: transparent; /* 讓背景透過 */
+           display: block;
+           width: 100%;
+           height: 100%;
+       }
+
+
+       #scoreDisplay, #gameOver, #startMessage {
+           position: absolute;
+           color: white;
+           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+           font-size: 2em;
+           text-align: center;
+           z-index: 10;
+       }
+
+
+       #scoreDisplay {
+           top: 20px;
+           left: 50%;
+           transform: translateX(-50%);
+           font-size: 2.5em;
+       }
+
+
+       #gameOver, #startMessage {
+           font-size: 1.5em;
+           padding: 20px;
+           background-color: rgba(0, 0, 0, 0.6);
+           border-radius: 10px;
+           display: none; /* 預設隱藏 */
+           flex-direction: column;
+           gap: 15px;
+       }
+
+
+       #gameOver button, #startMessage button {
+           background-color: #4CAF50; /* 綠色按鈕 */
+           color: white;
+           padding: 10px 20px;
+           border: none;
+           border-radius: 8px;
+           cursor: pointer;
+           font-family: 'Press Start 2P', cursive;
+           font-size: 0.8em;
+           box-shadow: 0 5px #367C39;
+           transition: all 0.1s ease;
+       }
+
+
+       #gameOver button:active, #startMessage button:active {
+           box-shadow: 0 2px #367C39;
+           transform: translateY(3px);
+       }
+
+
+       #startMessage {
+           display: flex; /* 預設顯示開始訊息 */
+       }
+
+
+       .instructions {
+           font-size: 0.7em;
+           margin-top: 10px;
+           color: #DDD;
+       }
+   </style>
+</head>
+<body>
+   <div id="gameContainer">
+       <canvas id="gameCanvas"></canvas>
+       <div id="scoreDisplay">分數: 0</div>
+       <div id="startMessage">
+           點擊或按空白鍵開始！
+           <button id="startButton">開始遊戲</button>
+           <div class="instructions">點擊或按空白鍵來拍動翅膀</div>
+       </div>
+       <div id="gameOver">
+           遊戲結束！
+           <div id="finalScore"></div>
+           <button id="restartButton">重新開始</button>
+       </div>
+   </div>
+
+
+   <script>
+       const canvas = document.getElementById('gameCanvas');
+       const ctx = canvas.getContext('2d');
+       const scoreDisplay = document.getElementById('scoreDisplay');
+       const startMessage = document.getElementById('startMessage');
+       const startButton = document.getElementById('startButton');
+       const gameOverMessage = document.getElementById('gameOver');
+       const finalScoreDisplay = document.getElementById('finalScore');
+       const restartButton = document.getElementById('restartButton');
+
+
+       // 遊戲設定
+       const GAME_WIDTH = 400;
+       const GAME_HEIGHT = 600;
+       const BIRD_SIZE = 30;
+       const GRAVITY = 0.5;
+       const JUMP_STRENGTH = -8;
+       const PIPE_WIDTH = 60;
+       const PIPE_GAP = 150; // 管道之間的垂直間隙
+       const PIPE_SPEED = 3;
+       const GROUND_HEIGHT = 50;
+
+
+       let bird = {
+           x: 50,
+           y: GAME_HEIGHT / 2 - BIRD_SIZE / 2,
+           velocity: 0
+       };
+
+
+       let pipes = [];
+       let score = 0;
+       let gameStarted = false;
+       let gameOver = false;
+       let animationFrameId;
+
+
+       // 調整畫布大小以適應容器
+       function resizeCanvas() {
+           const container = document.getElementById('gameContainer');
+           canvas.width = container.clientWidth;
+           canvas.height = container.clientHeight;
+           // 重新計算鳥的位置，以防萬一
+           if (!gameStarted) {
+               bird.y = canvas.height / 2 - BIRD_SIZE / 2;
+           }
+       }
+
+
+       window.addEventListener('resize', resizeCanvas);
+       resizeCanvas(); // 初始調整大小
+
+
+       // 繪製鳥
+       function drawBird() {
+           ctx.fillStyle = 'yellow';
+           ctx.beginPath();
+           ctx.arc(bird.x + BIRD_SIZE / 2, bird.y + BIRD_SIZE / 2, BIRD_SIZE / 2, 0, Math.PI * 2);
+           ctx.fill();
+           ctx.strokeStyle = 'orange';
+           ctx.lineWidth = 2;
+           ctx.stroke();
+
+
+           // 簡單的眼睛
+           ctx.fillStyle = 'black';
+           ctx.beginPath();
+           ctx.arc(bird.x + BIRD_SIZE * 0.7, bird.y + BIRD_SIZE * 0.3, BIRD_SIZE * 0.1, 0, Math.PI * 2);
+           ctx.fill();
+
+
+           // 簡單的嘴巴
+           ctx.fillStyle = 'orange';
+           ctx.beginPath();
+           ctx.moveTo(bird.x + BIRD_SIZE, bird.y + BIRD_SIZE / 2);
+           ctx.lineTo(bird.x + BIRD_SIZE + 10, bird.y + BIRD_SIZE / 2 - 5);
+           ctx.lineTo(bird.x + BIRD_SIZE + 10, bird.y + BIRD_SIZE / 2 + 5);
+           ctx.closePath();
+           ctx.fill();
+       }
+
+
+       // 繪製管道
+       function drawPipes() {
+           ctx.fillStyle = 'green';
+           ctx.strokeStyle = 'darkgreen';
+           ctx.lineWidth = 3;
+
+
+           pipes.forEach(pipe => {
+               // 頂部管道
+               ctx.fillRect(pipe.x, 0, PIPE_WIDTH, pipe.topHeight);
+               ctx.strokeRect(pipe.x, 0, PIPE_WIDTH, pipe.topHeight);
+
+
+               // 底部管道
+               ctx.fillRect(pipe.x, pipe.bottomY, PIPE_WIDTH, canvas.height - pipe.bottomY - GROUND_HEIGHT);
+               ctx.strokeRect(pipe.x, pipe.bottomY, PIPE_WIDTH, canvas.height - pipe.bottomY - GROUND_HEIGHT);
+           });
+       }
+
+
+       // 繪製地面
+       function drawGround() {
+           ctx.fillStyle = '#D2B48C'; /* 棕色 */
+           ctx.fillRect(0, canvas.height - GROUND_HEIGHT, canvas.width, GROUND_HEIGHT);
+           ctx.strokeStyle = '#8B4513'; /* 深棕色 */
+           ctx.lineWidth = 3;
+           ctx.strokeRect(0, canvas.height - GROUND_HEIGHT, canvas.width, GROUND_HEIGHT);
+       }
+
+
+       // 更新遊戲狀態
+       function update() {
+           if (gameOver || !gameStarted) return;
+
+
+           // 更新鳥的位置
+           bird.velocity += GRAVITY;
+           bird.y += bird.velocity;
+
+
+           // 檢查鳥是否超出邊界
+           if (bird.y + BIRD_SIZE > canvas.height - GROUND_HEIGHT || bird.y < 0) {
+               endGame();
+               return;
+           }
+
+
+           // 移動管道並生成新管道
+           if (pipes.length === 0 || pipes[pipes.length - 1].x < canvas.width - 200) {
+               generatePipe();
+           }
+
+
+           pipes.forEach(pipe => {
+               pipe.x -= PIPE_SPEED;
+
+
+               // 檢查碰撞
+               if (
+                   bird.x < pipe.x + PIPE_WIDTH &&
+                   bird.x + BIRD_SIZE > pipe.x &&
+                   (bird.y < pipe.topHeight || bird.y + BIRD_SIZE > pipe.bottomY)
+               ) {
+                   endGame();
+                   return;
+               }
+
+
+               // 增加分數
+               if (!pipe.passed && bird.x > pipe.x + PIPE_WIDTH) {
+                   score++;
+                   scoreDisplay.textContent = `分數: ${score}`;
+                   pipe.passed = true;
+               }
+           });
+
+
+           // 移除超出螢幕的管道
+           pipes = pipes.filter(pipe => pipe.x + PIPE_WIDTH > 0);
+       }
+
+
+       // 生成新管道
+       function generatePipe() {
+           const minHeight = 50;
+           const maxHeight = canvas.height - GROUND_HEIGHT - PIPE_GAP - minHeight;
+           const topHeight = Math.floor(Math.random() * (maxHeight - minHeight + 1)) + minHeight;
+           const bottomY = topHeight + PIPE_GAP;
+
+
+           pipes.push({
+               x: canvas.width,
+               topHeight: topHeight,
+               bottomY: bottomY,
+               passed: false
+           });
+       }
+
+
+       // 遊戲循環
+       function gameLoop() {
+           ctx.clearRect(0, 0, canvas.width, canvas.height); // 清除畫布
+
+
+           update();
+           drawPipes();
+           drawGround();
+           drawBird();
+
+
+           if (!gameOver) {
+               animationFrameId = requestAnimationFrame(gameLoop);
+           }
+       }
+
+
+       // 拍動翅膀
+       function flap() {
+           if (!gameOver) {
+               bird.velocity = JUMP_STRENGTH;
+           }
+       }
+
+
+       // 開始遊戲
+       function startGame() {
+           bird = {
+               x: 50,
+               y: canvas.height / 2 - BIRD_SIZE / 2,
+               velocity: 0
+           };
+           pipes = [];
+           score = 0;
+           scoreDisplay.textContent = `分數: ${score}`;
+           gameOver = false;
+           gameStarted = true;
+           startMessage.style.display = 'none';
+           gameOverMessage.style.display = 'none';
+           if (animationFrameId) {
+               cancelAnimationFrame(animationFrameId);
+           }
+           gameLoop();
+       }
+
+
+       // 結束遊戲
+       function endGame() {
+           gameOver = true;
+           gameStarted = false;
+           cancelAnimationFrame(animationFrameId);
+           finalScoreDisplay.textContent = `你的分數是: ${score}`;
+           gameOverMessage.style.display = 'flex';
+       }
+
+
+       // 事件監聽器
+       document.addEventListener('keydown', (e) => {
+           if (e.code === 'Space') {
+               if (!gameStarted && !gameOver) {
+                   startGame();
+               } else {
+                   flap();
+               }
+           }
+       });
+
+
+       canvas.addEventListener('click', () => {
+           if (!gameStarted && !gameOver) {
+               startGame();
+           } else {
+               flap();
+           }
+       });
+
+
+       startButton.addEventListener('click', startGame);
+       restartButton.addEventListener('click', startGame);
+
+
+       // 初始顯示開始訊息
+       startMessage.style.display = 'flex';
+   </script>
+</body>
+</html>
